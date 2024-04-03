@@ -1,0 +1,50 @@
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.btn{
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 50%;
+  margin: 10px;
+  display:flex;
+  justify-content:center ;
+  align-items: center;
+  color: antiquewhite;
+  font-size: 40px;
+  cursor: pointer;
+}
+.red{
+  background-color: rgb(255, 0, 0);
+}
+.yellow{
+  background-color: yellow;
+}
+.green{
+  background-color: green;
+}
+.blue{
+  background-color: blue;
+}
+.flash{
+  background-color: white;
+}
+.userFlash{
+  background-color: white;
+}
+.bodyRed{
+  background-color: red;
+}
